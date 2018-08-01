@@ -12,11 +12,25 @@
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
     </div>
-    <div id="about">
+    <div id="contact_form">
         <h1>Contact</h1>
         <hr>
         
-        <p></p>
+        <form action="mailto:tblukens87@gmail.com" method="post" enctype="text/plain">
+            <label for="fullname">Name</label>
+            <br>
+            <input type="text" id="fullname" name="name" placeholder="Your Name">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="Your Email">
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 
     <div id="footer">
