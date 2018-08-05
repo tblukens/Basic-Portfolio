@@ -40,6 +40,7 @@ header {
 
 #header-container {
     margin: 0 auto;
+    left: 8px;
     width: 960px;
     align-content: center;
 }
@@ -95,7 +96,9 @@ header ul, header li {
     height: 100%;
     width: 960px;
     background: #fff;
-    border: #ddd solid 1px;
+    color: #
+    border: #ddd solid 2px;
+    box-shadow: 2px 2px 11px 11px rgba(74, 170, 165, .15);
 }
 
 #about-container, #contact-container, #portfolio-container {
